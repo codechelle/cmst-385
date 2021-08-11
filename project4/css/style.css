@@ -222,9 +222,7 @@ footer .navigation > a {
 }
 
 a.tile:hover {
-    box-shadow: 10px 10px 5px 0px rgba(rgb(128,128,0));
-    -webkit-box-shadow: 25px 23px 5px 3px rgb(128,128,0);
-    -moz-box-shadow: 25px 23px 5px 3px rgb(128,128,0);
+    box-shadow: 10px 10px 5px 0px rgb(128,128,0);
 }
 
 .project-img{
@@ -253,9 +251,7 @@ a.tile:hover {
 
 #resume {
     background: white;
-    box-shadow: 10px 10px 5px 0px rgb(rgb(128,128,0));
-    -webkit-box-shadow: 25px 23px 5px 3px rgb(128,128,0);
-    -moz-box-shadow: 25px 23px 5px 3px rgb(128,128,0);
+    box-shadow: 25px 23px 5px 3px rgb(128,128,0);
     color: black;
     padding: 2rem;
 }
