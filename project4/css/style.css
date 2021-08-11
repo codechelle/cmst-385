@@ -25,6 +25,7 @@ h2 {
 h3 {
     font-family: 'Bodoni Moda', sans-serif;
     font-size: 1.5rem;
+    margin: 0;
 }
 
 h4 {
@@ -45,7 +46,10 @@ h6 {
 }
 
 p {
+    color: white;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 1rem 0;
 }
 
 header {
@@ -158,6 +162,7 @@ footer .navigation > a {
 }
 
 #welcome p {
+    color: #556b2f;
     line-height: 2rem;
     width: 70%;
 }
@@ -265,6 +270,10 @@ a.tile:hover {
     margin: 0;
 }
 
+#resume p {
+    color: black;
+}
+
 #contact-info p {
     display: inline-block;
 }
@@ -274,6 +283,10 @@ a.tile:hover {
     border: 2px solid black;
     padding: 1rem;
     margin: 0 2rem auto auto;
+}
+
+#career-obj p {
+    font-size: 0.9rem;
 }
 
 h4 {
@@ -333,6 +346,11 @@ td:first-of-type {
     position: absolute;
     width: 350px;
 }
+
+.review p {
+    color: #556b2f;
+}
+
 .name {
     margin: 1rem 0 0;
 }
